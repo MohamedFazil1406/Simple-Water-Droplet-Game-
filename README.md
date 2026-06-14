@@ -89,7 +89,7 @@ lwjgl3/build/libs/
 Using the command line:
 
 ```bash
-java -jar your-game-name.jar
+java -jar SimpleGame-1.0.0.jar
 ```
 
 Or simply double-click the generated JAR file.
