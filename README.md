@@ -29,9 +29,7 @@ Move the bucket left and right to catch falling raindrops. Each caught drop play
 | →           | Move Right  |
 | Mouse/Touch | Move Bucket |
 
-## Screenshot
 
-![Game Screenshot](images/gameplay.png)
 
 ## Project Structure
 
@@ -67,6 +65,44 @@ This project demonstrates:
 * User input handling
 * Viewport management
 * Basic game state management
+
+## Running the Game
+
+### Build the JAR
+
+From the project root directory:
+
+```bash
+gradlew lwjgl3:dist
+```
+
+### Locate the JAR
+
+After the build completes, the runnable JAR will be generated in:
+
+```text
+lwjgl3/build/libs/
+```
+
+### Run the Game
+
+Using the command line:
+
+```bash
+java -jar your-game-name.jar
+```
+
+Or simply double-click the generated JAR file.
+
+### Requirements
+
+* Java JDK installed
+* Windows, Linux, or macOS
+
+### Screenshot
+
+![Gameplay](images/gameplay.png)
+
 
 ## License
 
